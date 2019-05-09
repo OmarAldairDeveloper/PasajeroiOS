@@ -1,0 +1,6 @@
+framework module Pods_zounyrider {
+  umbrella header "Pods-zounyrider-umbrella.h"
+
+  export *
+  module * { export * }
+}

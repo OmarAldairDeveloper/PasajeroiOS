@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		176F3EDC862414EC8C720D25 /* Pods_zounyrider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86828E9ACDD3C24F85BC548C /* Pods_zounyrider.framework */; };
+		ED2F408C2284926900E8C856 /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2F408B2284926900E8C856 /* SuccessViewController.swift */; };
+		ED472076227DF4D500302FAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED472075227DF4D500302FAC /* AppDelegate.swift */; };
+		ED472078227DF4D500302FAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED472077227DF4D500302FAC /* ViewController.swift */; };
+		ED47207B227DF4D500302FAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED472079227DF4D500302FAC /* Main.storyboard */; };
+		ED47207D227DF4D700302FAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED47207C227DF4D700302FAC /* Assets.xcassets */; };
+		ED472080227DF4D700302FAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED47207E227DF4D700302FAC /* LaunchScreen.storyboard */; };
+		ED472088227DF58300302FAC /* RequestDriverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED472087227DF58300302FAC /* RequestDriverViewController.swift */; };
+		ED47208D227E0F4800302FAC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED47208C227E0F4800302FAC /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		178D5C96FC7BCEB55BAF4BC7 /* Pods-zounyrider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zounyrider.release.xcconfig"; path = "Target Support Files/Pods-zounyrider/Pods-zounyrider.release.xcconfig"; sourceTree = "<group>"; };
+		86828E9ACDD3C24F85BC548C /* Pods_zounyrider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zounyrider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D80B6314031F09392BFDD32A /* Pods-zounyrider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zounyrider.debug.xcconfig"; path = "Target Support Files/Pods-zounyrider/Pods-zounyrider.debug.xcconfig"; sourceTree = "<group>"; };
+		ED2F408B2284926900E8C856 /* SuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
+		ED472072227DF4D500302FAC /* zounyrider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zounyrider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED472075227DF4D500302FAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED472077227DF4D500302FAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED47207A227DF4D500302FAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED47207C227DF4D700302FAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED47207F227DF4D700302FAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED472081227DF4D700302FAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED472087227DF58300302FAC /* RequestDriverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestDriverViewController.swift; sourceTree = "<group>"; };
+		ED47208B227E0D1C00302FAC /* zounyrider.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = zounyrider.entitlements; sourceTree = "<group>"; };
+		ED47208C227E0F4800302FAC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED47206F227DF4D500302FAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				176F3EDC862414EC8C720D25 /* Pods_zounyrider.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB986531CB02C67D6468A196 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86828E9ACDD3C24F85BC548C /* Pods_zounyrider.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D88DA07BD0F9AFA134AF4EFB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D80B6314031F09392BFDD32A /* Pods-zounyrider.debug.xcconfig */,
+				178D5C96FC7BCEB55BAF4BC7 /* Pods-zounyrider.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ED472069227DF4D500302FAC = {
+			isa = PBXGroup;
+			children = (
+				ED472074227DF4D500302FAC /* zounyrider */,
+				ED472073227DF4D500302FAC /* Products */,
+				D88DA07BD0F9AFA134AF4EFB /* Pods */,
+				AB986531CB02C67D6468A196 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ED472073227DF4D500302FAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED472072227DF4D500302FAC /* zounyrider.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED472074227DF4D500302FAC /* zounyrider */ = {
+			isa = PBXGroup;
+			children = (
+				ED47208B227E0D1C00302FAC /* zounyrider.entitlements */,
+				ED472075227DF4D500302FAC /* AppDelegate.swift */,
+				ED472077227DF4D500302FAC /* ViewController.swift */,
+				ED472079227DF4D500302FAC /* Main.storyboard */,
+				ED47207C227DF4D700302FAC /* Assets.xcassets */,
+				ED47207E227DF4D700302FAC /* LaunchScreen.storyboard */,
+				ED472081227DF4D700302FAC /* Info.plist */,
+				ED472087227DF58300302FAC /* RequestDriverViewController.swift */,
+				ED47208C227E0F4800302FAC /* GoogleService-Info.plist */,
+				ED2F408B2284926900E8C856 /* SuccessViewController.swift */,
+			);
+			path = zounyrider;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED472071227DF4D500302FAC /* zounyrider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED472084227DF4D700302FAC /* Build configuration list for PBXNativeTarget "zounyrider" */;
+			buildPhases = (
+				0348CD867EE4D4A05A92DBB4 /* [CP] Check Pods Manifest.lock */,
+				ED47206E227DF4D500302FAC /* Sources */,
+				ED47206F227DF4D500302FAC /* Frameworks */,
+				ED472070227DF4D500302FAC /* Resources */,
+				BA1C3F7760A6E9608E9CAA19 /* [CP] Embed Pods Frameworks */,
+				B379CDF2845329BAC4CD01AB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zounyrider;
+			productName = zounyrider;
+			productReference = ED472072227DF4D500302FAC /* zounyrider.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED47206A227DF4D500302FAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Honey Mustard";
+				TargetAttributes = {
+					ED472071227DF4D500302FAC = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = ED47206D227DF4D500302FAC /* Build configuration list for PBXProject "zounyrider" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED472069227DF4D500302FAC;
+			productRefGroup = ED472073227DF4D500302FAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED472071227DF4D500302FAC /* zounyrider */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED472070227DF4D500302FAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED472080227DF4D700302FAC /* LaunchScreen.storyboard in Resources */,
+				ED47207D227DF4D700302FAC /* Assets.xcassets in Resources */,
+				ED47207B227DF4D500302FAC /* Main.storyboard in Resources */,
+				ED47208D227E0F4800302FAC /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0348CD867EE4D4A05A92DBB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-zounyrider-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B379CDF2845329BAC4CD01AB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zounyrider/Pods-zounyrider-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseFirestore/gRPCCertificates-Firestore.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gRPCCertificates-Firestore.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-zounyrider/Pods-zounyrider-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA1C3F7760A6E9608E9CAA19 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zounyrider/Pods-zounyrider-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-zounyrider/Pods-zounyrider-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED47206E227DF4D500302FAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED472078227DF4D500302FAC /* ViewController.swift in Sources */,
+				ED472076227DF4D500302FAC /* AppDelegate.swift in Sources */,
+				ED2F408C2284926900E8C856 /* SuccessViewController.swift in Sources */,
+				ED472088227DF58300302FAC /* RequestDriverViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED472079227DF4D500302FAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED47207A227DF4D500302FAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED47207E227DF4D700302FAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED47207F227DF4D700302FAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED472082227DF4D700302FAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED472083227DF4D700302FAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED472085227DF4D700302FAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D80B6314031F09392BFDD32A /* Pods-zounyrider.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = zounyrider/zounyrider.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XMJ2HCJ46L;
+				INFOPLIST_FILE = zounyrider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.honeymustard.zouny-rider-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED472086227DF4D700302FAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 178D5C96FC7BCEB55BAF4BC7 /* Pods-zounyrider.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = zounyrider/zounyrider.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XMJ2HCJ46L;
+				INFOPLIST_FILE = zounyrider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.honeymustard.zouny-rider-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED47206D227DF4D500302FAC /* Build configuration list for PBXProject "zounyrider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED472082227DF4D700302FAC /* Debug */,
+				ED472083227DF4D700302FAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED472084227DF4D700302FAC /* Build configuration list for PBXNativeTarget "zounyrider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED472085227DF4D700302FAC /* Debug */,
+				ED472086227DF4D700302FAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED47206A227DF4D500302FAC /* Project object */;
+}
